@@ -1,0 +1,29 @@
+Path Nedir ?
+Path(Yol) unique(essiz, özel) olarak bir isletim sisteminde bir dosya yada klasöre verilen özel bir lokasyondur.
+Path bir dosya yolunun alfa sayýsal karakterlerin birlesiminden olusur.Kýsaca diyebiliriz ki, bir dosya yada klasörün
+lokal yolu olarak diyebiliriz.
+
+
+Absolute Path Nedir ?
+Absolute path ise bir dosya yada klasörün root(kök) dizinden itibaren verilen path’e denir.
+Root (/) dizininden itibaren alt klasörler üzerinde çalismalarinizi gerçeklestirebilirsiniz.
+
+Fakat Absolute Path islemi, genellikle pek tavsiye edilmeyen bir path verme islemidir. Sebebine gelirsek,
+Projemize locale olarak Path veriyoruz fakat projemizi farkli makinalar de çalýþtýrmak istediðimiz zaman verilen 
+Absolute Path(Locale Path) projenin patlamasina sebebiyet vermektedir. 
+**Bu yüzden çogunlukla Relative Path tercih edilmektedir.
+
+
+Relative Path Nedir ?
+Relative Path ise Absolute Path’den farkli olarak dinamik olarak yol vermektedir.
+Relative Path islemi çalisilmakta olan klasör icerisinde path alma islemine denir.
+
+
+Örnek verecek olursak þu örnekleri verebiliriz.
+Relative Path
+-index.html
+-/graphics/image.png
+
+Absolute Path 
+-htpp://www.mysite.com
+-http://www.mysite.com/graphics/image.png

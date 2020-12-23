@@ -1,0 +1,11 @@
+getPath()->> File nesnesinin olusturuldugu yol dizesini alýr ve göreceli gecerli dizin olabilir.
+
+getAbsolutePath()->> göreceli ise gecerli dizine göre cözümledikten sonra yol dizesini alýr ve sonucta tam nitelikli bir yol elde edilir.
+
+getCanonicalPath()->> gecerli dizine karsý herhangi bir göreceli yolu cözdükten sonra yol dizesini alýr ve herhangi bir 
+göreceli yolu (. ve ..) ve dosya sisteminin dosya sistemine basvurmak icin kanonik araclar olarak kabul ettigi bir yolu döndürmek
+ icin herhangi bir dosya sistemi baglantisini kaldirir.
+
+Tanýmlarýný yaptýktan sonra burda anlatmak istedigimiz olay DriverFileAndPath örneginde de oldugu gibi getPath tüm yol pathini alir Calistigi
+dizine kadar. getAbsoulutePath ise mutlak yolu alir.getCanonicalPath ise (.) bu dizin (..) üst dizin ifadelerini kontrol ettikten sonra 
+anlamsiz olan yollari kaldirir ve sistemin calistigi dizine kadar yollari temizler. 

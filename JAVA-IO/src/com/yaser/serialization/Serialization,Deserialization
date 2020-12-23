@@ -1,0 +1,18 @@
+Serialization:
+ Java bilindigi üzere nesneye dayali bir dil. Neredeyse her sey nesne. Nesneleri kullanirken bir defa degil 
+istenilen zamanda ve yerde tekrar, tekrar ve tekrar kullanabilmemiz gerekebiliyor. Bu noktada ise bizim 
+“serilestirme” dedigimiz yapi devreye giriyor.Degiskenlere ait degerleri bir dosyaya kaydetdiginizi düsünün. 
+Tekrar kullanmak istediginizde bu degerlerin ne ve hangi tipte oldugunu bilemeyiz. Nesnelerimizin icinde
+ bulunan degerler ve veri tipleri ile birlikte saklayabiliyoruz. Bu güzel yöntem “Java Serilestirme” 
+ sayesinde olmaktadir.Nesnelerin icerisindeki degiskenlerin adlari, tipleri degerleri byte’lara cevrilerek 
+ kaydedilir ve bu dosyayi nereye götürürsek götürelim JVM bu degerleri bir kayip olmadan okuyup kullanabiliriz. 
+ Serilestirme islemi icin Java’nin Serializable sinifini kullaniyoruz.
+ 
+ 
+Deserialization:
+Serialization yapýlmýþ bir nesneyi daha sonra acabilmemiz icin ise Deserialization yapmamiz gerekmektedir.
+
+
+ 
+ 
+ 
